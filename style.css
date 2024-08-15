@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #f4f1de;
+}
+
+.container {
+  height: 100%;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#main-image {
+  width: 360px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+#heading1 {
+    font-family: Young Serif ;
+    font-weight: 400;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#para1 {
+    width: 385px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-align: justify;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.preparation-time {
+    height: 110px;
+    width: 380px;
+    background-color: rgb(248, 227, 231);
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#heading2 {
+    font-family: Outfit;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 20px;
+} 
+
+#list1 {
+    padding-top: 5px;
+    padding-left: 35px;
+    font-family: Outfit;
+}
+
+.ingredients {
+  margin-top: 15px;
+}
+#ingredients {
+  margin-left: 6px;
+
+}
+
+#ingredients-1 {
+  padding-top: 5px;
+  padding-left: 35px;
+  font-family: Outfit;
+}
+.instructions {
+  margin-top: 15px;
+  margin-left: 5px;
+} 
+#instructions-2 {
+  padding-top: 5px;
+  padding-left: 35px;
+  padding-right: 5px;
+  font-family: Outfit;
+  text-align: justify;
+}
+.nutrition-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+}
+.nutrition-header {
+  font-size: 24px;
+  font-family: Young serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.nutrition-subtext {
+  font-size: 14px;
+  font-family: outfit;
+  margin-bottom: 20px;
+}
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.nutrition-table th,
+.nutrition-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+.nutrition-table th {
+  text-align: left;
+}
+
